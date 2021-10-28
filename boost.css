@@ -87,3 +87,31 @@ body {
     background-color: #8383e9;
     color: #000;
 }
+.valid {
+  background-color:#f8a9a9;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+.contant{
+  color:#000;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.form-control{
+  background-color: #f7dfdf;
+  width: 90%;
+}
+.form-select{
+  background-color: #f7dfdf;
+}
+.bum{
+  background-color: #fd6464;
+  border: 1px solid #000;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+.bum:hover{
+  background-color: #8383e9;
+  color: #000;
+}

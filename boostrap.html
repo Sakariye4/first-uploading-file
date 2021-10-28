@@ -20,53 +20,119 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-flued">
 
-        <div class="control">
+        <div class="container">
 
-            <nav class="nav nav-pills flex-column flex-sm-row navis">
-                <a class="flex-sm-fill text-sm-center nav-link " aria-current="page" href="#">Active</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
-                <a class="flex-sm-fill text-sm-center nav-link ">Disabled</a>
-            </nav>
-        </div>
-        <!-- end navigation bar -->
-        <div class="row raw">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3>Lorem ipsum, dolor sit am </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat tenetur eum iste laboriosam est sint porro nesciunt?
-                        </p>
-                        <a href="#!" class="btn btn-primary"> Go some where</a>
+            <div class="control">
+
+                <nav class="nav nav-pills flex-column flex-sm-row navis">
+                    <a class="flex-sm-fill text-sm-center nav-link " aria-current="page" href="#">Active</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+                    <a class="flex-sm-fill text-sm-center nav-link ">Disabled</a>
+                </nav>
+            </div>
+            <!-- end navigation bar -->
+            <div class="row raw">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Lorem ipsum, dolor sit am </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat
+                                tenetur
+                                eum iste laboriosam est sint porro nesciunt?
+                            </p>
+                            <a href="#!" class="btn  btn-primary"> Go some where</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Lorem ipsum, dolor sit am</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat
+                                tenetur
+                                eum iste laboriosam est sint porro nesciunt?
+                            </p>
+                            <a href="#!" class="btn btn-primary"> Go some where</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Lorem ipsum, dolor sit am.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat
+                                tenetur
+                                eum iste laboriosam est sint porro nesciunts?
+                            </p>
+                            <a href="#!" class="btn btn-primary"> Go some where</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3>Lorem ipsum, dolor sit am</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat tenetur eum iste laboriosam est sint porro nesciunt?
-                        </p>
-                        <a href="#!" class="btn btn-primary"> Go some where</a>
+            <!-- let's begin form -->
+            <form class="row g-3 needs-validation valid" novalidate>
+                <div class="col-md-4 position-relative contant">
+                    <label for="validationTooltip01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value=""
+                        placeholder="Enter-username" required>
+                    <div class="valid-tooltip">
+                        Looks good!
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3>Lorem ipsum, dolor sit am.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores in odit repellat tenetur eum iste laboriosam est sint porro nesciunt?
-                        </p>
-                        <a href="#!" class="btn btn-primary"> Go some where</a>
+                <div class="col-md-4 position-relative contant">
+                    <label for="validationTooltip02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                    <div class="valid-tooltip">
+                        Looks good!
                     </div>
                 </div>
-            </div>
-
+                <div class="col-md-4 position-relative contant">
+                    <label for="validationTooltipUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername"
+                            aria-describedby="validationTooltipUsernamePrepend" required>
+                        <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative contant">
+                    <label for="validationTooltip03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required>
+                    <div class="invalid-tooltip">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative contant">
+                    <label for="validationTooltip04" class="form-label">State</label>
+                    <select class="form-select" id="validationTooltip04" cl required>
+                        <option selected disabled value="" class="">Choose...</option>
+                        <option class="">...</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative contant">
+                    <label for="validationTooltip05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip05" required>
+                    <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary bum" type="submit">Submit form</button>
+                </div>
+            </form>
         </div>
     </div>
+    <script src="./javascrip.js"></script>
+
 </body>
 
 </html>
